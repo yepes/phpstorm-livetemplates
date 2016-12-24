@@ -1,0 +1,15 @@
+<templateSet group="Yii">
+  <template name="et" value="&lt;?php echo Yii::t('$CATEGORY$', '$VALUE$'); ?&gt;" description="echo Yii::t from html" toReformat="false" toShortenFQNames="true">
+    <variable name="CATEGORY" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="action" value="public function action$ACTION$() {&#10;    &#10;}" description="controller action" toReformat="false" toShortenFQNames="true">
+    <variable name="ACTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
+</templateSet>
